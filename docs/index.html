@@ -800,62 +800,107 @@ td, th {
 <p>MACRO ECONOMY: Goods Market (Production, Lager), Capital Market (Savings, Investments), Labor Market (Employment, Population Structure), Price vs.&nbsp;Value, Demand vs.&nbsp;Supply, Access to Resources, Trade &amp; International Contracts</p>
 <p><span class="math display">\[\begin{split} &amp;
 Supply = C + S + T + M = E    \\&amp;
-E = Wages \\&amp;
-+ BusinessIncome \\&amp;
-+ priv.CapitalIncome \\&amp;
-+ RealEstateIncome(Rentals)  \\&amp;
-+ nondistributedBusinessIncome  \\&amp;
-+ dir.TaxCapitalBusiness  \\&amp;
-+ GovernmentalAssets and ServicesIncome \\&amp;
-- InterestsGovernmentDeficit \\&amp;
-+ SocialInsurenceAssets and ServicesIncome       \\&amp;
+E = W + E_B + E_P + E_H + E_N + T_B + E_G - Z_D + E_S
 \\&amp;
-Demand = C + I + G + X = BIP  \\&amp;
-BIP = Consumption of priv.Households \\&amp;
-+ Consumption ofGovernment \\&amp;
-+ Consumption of Socialinsurance \\&amp;
-+ AssetsInvestments and StorageChange \\&amp;
-+ Export Goods and Services \\&amp;
-- Import Goods and Services       \\&amp;
+Demand = C + I + G + X = P_I  \\&amp;
+P_I = C + G + A + I_L + X - M
 \\&amp;
-equilibrium: E = BIP        \\&amp;
+equilibrium: E = P_I       \\&amp;
 W - C = S = I        \\&amp;
-C + S = W = Wages        \\&amp;
-C + I = R = Earnings        \\&amp;
+C + S = W        \\&amp;
+C + I = R        \\&amp;
 \\&amp;
-E + ind.T - V + D = BSP    \\&amp;
-BSP = BIP \\&amp;
-+ CapitalEarnings and Wages from Abroad \\&amp;
-- CapitalEarnings and Wages to Abroad         \\&amp;
-BSP - D = NSP = E + ind.T - S
-\end{split}\]</span></p>
-<p><span class="math display">\[\begin{split} &amp;
-G \cdot U = H \cdot P       \\&amp;
+E + T_i - B + D = P_S    \\&amp;
+P_S = P_I + E_M - E_X    \\&amp;
+P_S - D = P_N = E + T_i - S
+\\&amp;
+Q \cdot U = P_I \cdot V       \\&amp;
 \end{split}\]</span></p>
 <details>
 <summary>
 aronyms
 </summary>
-<span class="math display">\[\begin{split} &amp;
-C = Consumption     \\&amp;
-S = Savings     \\&amp;
-I = Invstments     \\&amp;
-T = Tax     \\&amp;
-M = Import     \\&amp;
-G = Governent expenses     \\&amp;
-X = Export     \\&amp;
-E = Income (Volkseinkommen)       \\&amp;
-T = indirect Tax       \\&amp;
-V = Subvention       \\&amp;
-D = Depreciations (Ersatzinvestitionen)       \\&amp;
-NSP = Nettosozialprodukt       \\&amp;
-G = Geldmenge      \\&amp;
-U = Umlaufsgeschwindigkeit         \\&amp;
-H = Handelsvoluemn = BIP = Productivity = \frac{Output}{Input}       \\&amp;
-P = Preisniveau (Inflation)      \\&amp;
-W = Wages      \\&amp;
-R = Earnings
-\end{split}\]</span>
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(C =\)</span> Consumption of Private Households</td>
+<td><span class="math inline">\(S =\)</span> Savings</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(I =\)</span> Invstments</td>
+<td><span class="math inline">\(T =\)</span> Taxes</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(M =\)</span> Import of Goods and Services</td>
+<td><span class="math inline">\(G =\)</span> Governent Expenses</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(X =\)</span> Export of Goods and Services</td>
+<td><span class="math inline">\(E =\)</span> Income of total Economy/Society (Volkseinkommen)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T_i =\)</span> indirect Taxes</td>
+<td><span class="math inline">\(B =\)</span> Subsadiaries (Subvention)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(D =\)</span> Depreciations (Ersatzinvestitionen)</td>
+<td><span class="math inline">\(P_N =\)</span> Net Society Production of total Economy (NSP)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(Q =\)</span> Money Quantity</td>
+<td><span class="math inline">\(U =\)</span> Umlaufsgeschwindigkeit</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(P_I =\)</span> internal Producttivity, Handelsvoluemn = BIP = </td>
+<td><span class="math inline">\(V =\)</span> Preisniveau (Inflation adjusted Value)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(W =\)</span> Wages (Salaries, …)</td>
+<td><span class="math inline">\(E_R =\)</span> Earnings, Gains, Yields, Profits, Returns</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(E_B =\)</span> Income of priv. Companies/Budiness/Services</td>
+<td><span class="math inline">\(E_P =\)</span> Incomeo of priv. Capital (Interests, Coupns, Dividends, … of priv. Assets/Investmens/Credits/Debits)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(E_H =\)</span> Income of Real Estate (Interests of Rental Loans, Houses/Buildings)</td>
+<td><span class="math inline">\(E_N =\)</span> Non Distributed Income of priv. Companies/Business</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(T_B =\)</span> direct Tax frm Capital of Companies/Business</td>
+<td><span class="math inline">\(E_G =\)</span> Income of Governmental Assets and Services</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(Z_D =\)</span> Interests of Governmental Deficit</td>
+<td><span class="math inline">\(E_S =\)</span> Income of Social Insurence Capital/Assets and Services</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(P_S =\)</span> Butto Sozial Produkt (BSP)</td>
+<td><span class="math inline">\(A =\)</span> Sozial Expenses</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(I_L =\)</span> Assets Investments and Storage Change</td>
+<td><span class="math inline">\(R_M =\)</span> Capital Earnings and Wages from Abroad</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(R_X\)</span> Capital Earnings and Wages to Abroad</td>
+<td><span class="math inline">\(U =\)</span> Money Turnover Speed (Umlaufgeschwindikeit)</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </details>
 <p><br>
 <br>
@@ -892,7 +937,63 @@ NPV = ...       \\&amp;
 <summary>
 aronyms
 </summary>
-…
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="odd">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+<tr class="even">
+<td>$ =$ …</td>
+<td>$ =$ …</td>
+</tr>
+</tbody>
+</table>
 </details>
 <p><br>
 <br>
