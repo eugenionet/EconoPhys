@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "\nPhysics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies\n",
+    "title": "Physics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies",
     "section": "",
-    "text": "WORKING NOTES DRAFT  by author  13 December 2025\n© Contact author to collabore.",
+    "text": "WORKING NOTES DRAFT\n© Contact author to collabore.",
     "crumbs": [
       "Home",
       "Overview",
@@ -14,7 +14,7 @@
   {
     "objectID": "index.html#macroeconomical-perspective",
     "href": "index.html#macroeconomical-perspective",
-    "title": "\nPhysics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies\n",
+    "title": "Physics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies",
     "section": "4.1 Macroeconomical perspective",
     "text": "4.1 Macroeconomical perspective\nSupply:\n\\[\\begin{split} &\nY = C + S + T + M - F\n\\end{split} \\tag{9}\\]\n\\[\\begin{split} &\nY = L  + Y_H + Y_A + T_A + Y_G - Z_G\n\\end{split} \\tag{10}\\]\nDemand:\n\\[\\begin{split} &\nV_I = C + I + G + F - M\n\\end{split} \\tag{11}\\]\nEquilibrium:\n\\[\\begin{split} &\nY = V_I       \\\\&\nL - C = S = I        \\\\&\nC + S = L        \\\\&\nC + I = R\n\\end{split} \\tag{12}\\]\nDomestic Production & International Trade:\n\\[\\begin{split} &\nV_S = Y + T - G_A + D_A\n\\end{split} \\tag{13}\\]\n\\[\\begin{split} &\nV_S = V_I + R_M - R_F\n\\end{split} \\tag{14}\\]\n\\[\\begin{split} &\nV_N = V_S - D_A\n\\end{split} \\tag{15}\\]\n\\[\\begin{split} &\nV_N = Y + T - G_A\n\\end{split} \\tag{16}\\]\nProductivity & Monetary Value:\n\\[\\begin{split} &\nP \\cdot V_I = U \\cdot Q\n\\end{split} \\tag{17}\\]",
     "crumbs": [
@@ -26,7 +26,7 @@
   {
     "objectID": "index.html#microeconomical-perspective",
     "href": "index.html#microeconomical-perspective",
-    "title": "\nPhysics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies\n",
+    "title": "Physics Concepts as Indicative Framework to Ex-ante Modelling Systems of Economies",
     "section": "4.2 Microeconomical perspective",
     "text": "4.2 Microeconomical perspective\n\\(A =\\) Assets represent “Property Capital” which basically consist of “Working Capital” and “Structural Capital”.\n\\(B =\\) Liabilities represent “Financial Capital” which basically consist of “Exogen Funds” and “Endogen Funds”.\n\\(X =\\) Expenses represent “Work Efforts” of human, and consumptions from machinery and infrastructure to “Supply Production”.\n\\(Y =\\) Income represent “Received Earnings” achieved with production to “Satisfy Demand”.\n\\(R =\\) Profit or Loss from executed work (resultant value from input efforts) is represented by \\(R = Y - X\\)\nThe “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): \\(A = B + R\\)\n\n\n\n\n\nacronyms\n\n\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(F =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(Q =\\) Monetary Quantity\n\\(U =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_F\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(X =\\) Expensens, costs from work efforts",
     "crumbs": [
